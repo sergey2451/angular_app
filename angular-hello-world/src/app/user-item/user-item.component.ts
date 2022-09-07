@@ -10,10 +10,10 @@ import {
   styleUrls: ['./user-item.component.css']
 })
 export class UserItemComponent implements OnInit {
-
   @Input() name: string;
 
   constructor() {
+    this.name = 'Sergey';
   }
 
   ngOnInit(): void {
