@@ -10,12 +10,20 @@ import {
   ReactiveFormsModule
 } from '@angular/forms';
 import { DemoFormSkuWithBuilderComponent } from './demo-form-sku-with-builder/demo-form-sku-with-builder.component';
+import { DemoFormWithValidationsExplicitComponent } from './demo-form-with-validations-explicit/demo-form-with-validations-explicit.component';
+import { DemoFormWithCustomValidationComponent } from './demo-form-with-custom-validation/demo-form-with-custom-validation.component';
+import { DemoFormWithEventsComponent } from './demo-form-with-events/demo-form-with-events.component';
+import { DemoFormNgModelComponent } from './demo-form-ng-model/demo-form-ng-model.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DemoFormSkuComponent,
-    DemoFormSkuWithBuilderComponent
+    DemoFormSkuWithBuilderComponent,
+    DemoFormWithValidationsExplicitComponent,
+    DemoFormWithCustomValidationComponent,
+    DemoFormWithEventsComponent,
+    DemoFormNgModelComponent,
   ],
   imports: [
     BrowserModule,

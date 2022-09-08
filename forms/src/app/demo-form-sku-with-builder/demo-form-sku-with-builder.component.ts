@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {
   FormBuilder,
-  FormGroup
+  FormGroup,
 } from '@angular/forms';
 
 @Component({
