@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { PriceServiceDemoComponent } from './price-service-demo/price-service-demo.component';
 import { UserDemoComponent } from './user-demo/user-demo.component';
 import { UserDemoInjectorComponent } from './user-demo/user-demo.injector.component';
+import { AnalyticsDemoComponent } from './analytics-demo/analytics-demo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PriceServiceDemoComponent,
     UserDemoComponent,
-    UserDemoInjectorComponent
+    UserDemoInjectorComponent,
+    AnalyticsDemoComponent
   ],
   imports: [
     BrowserModule,
